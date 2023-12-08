@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+    list-style:none;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    list-style:none;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  h2 {
+    color: green;
+}
+* {
+    box-sizing: border-box;
+}
+
+/* Create two columns that floats next to each other */
+.column1 {
+    float: left;
+    width: 70%;
+    MARGIN-TOP: -41PX;
+}
+
+/* Create two columns that floats next to each other */
+.column2 {
+  float: left;
+  width: 19%;
+  background-color: darkgrey;
+  margin-top: -40px;
+}
+
+footer.col-12 {
+  width: fit-content;
+
+  /* height: -webkit-fill-available; */
+}
+.myDiv {
+  padding: 10px;
+  background-color: darkgrey;
+  text-align: end;
+  margin-top: 430px;
+}
+.header{
+  background-color: darkgrey;
+  padding: 3px;
+}
+.row {
+  padding: 40PX;
+}
+/* Create two equal columns that floats next to each other */
+/* .column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; 
+  
+} */
+/* Should be removed. Only for demonstration */
